@@ -1,0 +1,28 @@
+.formulaire{
+    border: solid 2px ;
+    border-radius: 5px;
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    padding: 2%;
+}
+
+input{
+    border: none;
+    border-bottom:  2px solid;
+    width: 100%;
+}
+input:hover{
+    border-bottom: rgb(175, 175, 175) 2px solid;
+}
+input:active{
+    border: none
+}
+
+button{
+    cursor: pointer;
+    width: 100%;
+}
